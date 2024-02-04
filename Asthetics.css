@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #1b1b1b;
+    background-color: #000;
     color: #fff;
     font-family: sans-serif;
 }
@@ -25,6 +25,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #1b1b1b;
+    border-bottom: solid red;
+    margin-bottom: 20px;
 }
 header nav a{
     margin: 0px 2px;
@@ -43,7 +46,7 @@ header nav a:hover{
 }
 
 .Hero {
-    
+    background-color: #1b1b1b;
     height: 440px;
     margin: 0px 40px 0px 40px;
     border-radius: 20px;
