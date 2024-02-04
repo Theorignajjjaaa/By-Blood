@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b1b1b;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    height: 40px;
+    padding: 7px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav a{
+    margin: 0px 2px;
+    font-size: 1.1rem;
+    border: solid transparent 1px;
+    margin: 0px 20px;
+    height: 60px;
+    padding: 7px 20px;
+    transition-delay: 3.9ms;
+}
+header nav a:hover{
+    border: solid white 1px;
+    background-color: white;
+    color: #111;
+    border-radius: 20px;
+}
+
+.Hero {
+    background-color: #DFD3E3;
+    height: 440px;
+    margin: 0px 20px 0px 20px;
+    border: solid #353935;
+    border-radius: 20px;
+}
