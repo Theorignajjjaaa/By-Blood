@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+:root {
+    --Hero_color: red;
+    --Hero_TXT_color: RED;
+}
+
 body {
     background-color: #1b1b1b;
     color: #fff;
@@ -16,7 +21,7 @@ a {
 
 header {
     height: 40px;
-    padding: 7px 40px;
+    padding: 7px 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +33,7 @@ header nav a{
     margin: 0px 20px;
     height: 60px;
     padding: 7px 20px;
-    transition-delay: 3.9ms;
+    transition-duration: 13.9ms;
 }
 header nav a:hover{
     border: solid white 1px;
@@ -38,9 +43,24 @@ header nav a:hover{
 }
 
 .Hero {
-    background-color: #DFD3E3;
+    
     height: 440px;
-    margin: 0px 20px 0px 20px;
-    border: solid #353935;
+    margin: 0px 40px 0px 40px;
     border-radius: 20px;
+    color: var(--Hero_TXT_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid;
+    border-top: solid;
+
+}
+
+
+.Hero .sideB{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    margin: 0px 20PX;
+    font-size: 1.2rem;
 }
