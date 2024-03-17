@@ -3,9 +3,9 @@
     padding: 0;
 }
 
-:root {
-    --Hero_color: red;
-    --Hero_TXT_color: RED;
+a{
+    text-decoration: none;
+    color: #fff;
 }
 
 body {
@@ -14,56 +14,61 @@ body {
     font-family: sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
+.start {
+    background-color: #121212;
+    height: 140px;
+    margin: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header {
+.start p{
+    color: red;
+    font-size: 3.3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.start_Head {
+    background-color: #121212;
     height: 40px;
-    padding: 7px 80px;
+    margin: 0px 15px;
     display: flex;
     align-items: center;
+    padding: 0px 20px;
     justify-content: center;
-    background-color: #1b1b1b;
-    border-bottom: solid red;
-    margin-bottom: 20px;
+    position: sticky;
+    top: 15px;
+    z-index: 99;
+    
 }
-header nav a{
-    margin: 0px 2px;
-    font-size: 1.1rem;
-    border: solid transparent 1px;
-    margin: 0px 20px;
-    height: 60px;
-    padding: 7px 20px;
-    transition-duration: 13.9ms;
-}
-header nav a:hover{
-    border: solid white 1px;
-    background-color: white;
-    color: #111;
-    border-radius: 20px;
+.start_Head a{
+    margin: 0px 10px;
+    padding: 12px 10px;
+    
 }
 
-.Hero {
-    background-color: #1b1b1b;
-    height: 440px;
-    margin: 0px 40px 0px 40px;
-    border-radius: 20px;
-    color: var(--Hero_TXT_color);
+.start_Head a:hover{
+    background-color: #000;
+    color: red;
+}
+
+.start_set {
+    height: 140px;
+    background-color: #121212;
+    margin: 15px 15px 15px 15px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
+    color: red;
     justify-content: center;
-    border-bottom: solid;
-    border-top: solid;
-
-}
-
-
-.Hero .sideB{
-    display: flex;
-    align-items: center;
-    justify-content:  center;
-    margin: 0px 20PX;
+    text-align: center;
     font-size: 1.2rem;
+}
+
+.mid {
+    height: 1400px;
+    background-color: #121212;
+    margin: 15px 15px 15px 15px;
 }
