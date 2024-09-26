@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 20;
+    padding: 0;
+}
+
+a{
+    color: #fff;
+}
+
+#cssoff:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+a:hover{
+    color: red;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    border: solid red;
+    /*box shadow 0 0 15px red
+    and no backgorwnd and border coler */
+    background-color: red;
+    text-shadow: 2px 1px 20px red;
+}
+
+h4 {
+    background-color: red;
+}
+
+.heroind {
+    display: inline-block;
+}
+
+header {
+    top: 0;
+    left: 0;
+    position: sticky;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between; 
+    height: 6ex;
+    z-index: 99;
+    background-color: #121212;
+    padding: 20px 20px;
+    height: 60px;
+    margin: 0px;
+
+}
+
+.Tlogo {
+    user-select: none;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: red;
+    background-color: #121212;
+    border-radius: 20px 0;
+    width: "96px";
+    height: "64px";
+    display: flex;
+    box-shadow:0 0 15px  red;
+    cursor: pointer;
+}
+
+.docimg {
+    border: solid red;
+}
+
+.navH{
+    margin-left: -190px;
+}
+.navH a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 500; 
+    font-size: 1.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    padding: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    color: white;
+    
+    
+}
+.navH a:hover {
+    color: red;
+
+}
+
+.heroind {
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+.bbthlog {
+    margin: 10px;
+}
+
+.allhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menuh {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: red;
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+    height: 27px;
+    border: solid red;
+    user-select: none;
+    border-radius: 10px;
+}
+.menuh:hover {
+    background-color: red;
+    color: #000;
+}
+
+.menuh.Pactive{
+    background-color: red;
+    color: white;
+}
+
+.dongle {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+
+
+.dongle1 {
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid red;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.dongle1 p{
+    color: white;
+}
+
+.dongle1 i{
+    color: white;
+}
+
+.dongle1:hover {
+    border-color: #121212;
+    background-color: red;
+    cursor: pointer;
+}
+
+.dongle1:hover i{
+    color: white;
+}
+.dongle1:hover p{
+    color: white
+}
+.dongle1:hover .bbtdon1{
+    color: white;
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    background-color: #121212;
+    margin: 0 0;
+}
+
+.headerT {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    height: 0PX;
+    top: 100px;
+    z-index: 99;
+    border: solid 2px #121212;
+    display: none;
+    
+}
+.headerT.Pactive{
+    display: block;
+    top: 116px;
+}
+
+.navtale {
+    display: inline;
+    width: 100%;
+}
+
+.navtale a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    text-decoration: none;
+    height: 74px;
+    background-color: red;
+}
+.navtale .firs{
+    border-bottom: solid 2px #121212;
+}
+
+.navtale .mid1{
+    border-bottom: solid 2px #121212;
+}
+.navtale .las{
+    border-top: solid 2px #121212;
+}
+
+.navtale a:hover{
+    background-color: white;
+    color: red;
+}
+
+
+
+@media screen and (max-width:600px) {
+    header {
+        height: 9ex;
+        top: 10px;
+    }
+
+    .navH {
+        display: none;
+    }
+    .navH a{
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .bbthlog {
+        width: 300px;
+        height: 200px;
+        left: 0;
+
+    }
+    .Tlogo {
+        top: 0;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .menuh {
+        display: block;
+    }
+    .docimg {
+        height: 183px;
+        width: 350px;
+    }
+    .heroind {
+        display: block;
+        justify-content: center;
+    }
+    .dongle{
+        flex-wrap: wrap;
+    }
+}
